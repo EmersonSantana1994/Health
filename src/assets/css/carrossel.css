@@ -1,0 +1,86 @@
+.container {
+    height: 25vh;
+    width: 100%;
+    background-color: #141414;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.carrossel {
+    height: 200px;
+    width: 65%;
+    position: relative;
+    background-color:#141414;
+}
+
+.carrossel .switchLeft,
+.carrossel .switchRight {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    height: 100%;
+    width: 45px;
+    line-height: 250px;
+    font-size: 25px;
+    text-align: center;
+    background-color: rgba(10, 10, 10, 0.2);
+    font-family: sans-serif;
+    top: 0;
+    z-index: 3;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.carrossel .switchLeft {
+    left: -50px;
+}
+
+.carrossel .switchRight {
+    right: -50px;
+}
+
+
+.carrossel .titulo {
+    position: absolute;
+    width: 85.5%;
+    top: 13%;
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    left: -0px;
+}
+
+.carrosselbox {
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 10px !important;
+    display: flex;  
+    align-items: center;
+    background: #141414;
+}
+
+.carrosselbox img {
+    min-width: 147px;
+    max-width: 147px;
+    height: 110px;
+    background-size: cover;
+    background-color: #141414;
+    margin: 5px 10px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    z-index: 2;
+}
+
+.carrosselbox img:hover {
+    transform: scale(1.4);
+    z-index: 5;
+}
+
+.sliderButton:hover {
+    cursor: pointer;
+}

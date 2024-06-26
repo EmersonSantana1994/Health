@@ -1,0 +1,110 @@
+[
+  {
+    "id": "94313731",
+    "name": "Sono",
+    "price": 249.99,
+    "oldPrice": 349.99,
+    "image": "https://st3.depositphotos.com/3609781/17386/i/450/depositphotos_173860760-stock-photo-young-beautiful-woman-sleeps-bedroom.jpg",
+    "video": "https://www.youtube.com/watch?v=7JruNSjIenU&ab_channel=DiegoFalco"
+  },
+  {
+    "id": "94313762",
+    "name": "Alma",
+    "price": 249.99,
+    "oldPrice": 349.99,
+    "image": "https://img.olhardigital.com.br/wp-content/uploads/2022/12/shutterstock_1958378269.jpg",
+    "video": "https://www.youtube.com/watch?v=EmHueuWptdI&ab_channel=Esquadr%C3%A3oMotivacional"
+    
+  },
+  
+  { 
+    "id": "943137XQ",
+    "name": "Corpo",
+    "price": 249.99,
+    "oldPrice": 349.99,
+    "image": "https://img.freepik.com/vetores-premium/vetor-de-simbolo-de-anatomia-de-icone-de-corpo_883533-329.jpg?w=740",
+    "video": "https://www.youtube.com/watch?v=ZtgcWbcIWy4&ab_channel=INCR%C3%8DVEL"
+  },
+  {
+    "id": "95077714",
+    "name": "Mente",
+    "price": 199.99,
+    "oldPrice": 279.99,
+    "image": "https://www.esteticare.com.br/wp-content/uploads/2023/07/mente-humana-o-que-e-e-como-funciona-585x390.jpg",
+    "video": "https://www.youtube.com/watch?v=KZe9ILaP4dY&ab_channel=NOVAACR%C3%93POLEBRASIL"
+  },
+  {
+    "id": "9507779N",
+    "name": "Espírito",
+    "price": 199.99,
+    "oldPrice": 279.99,
+    "image": "https://olavodecarvalho.org/wp-content/uploads/2013/01/espirito_biblia-680x300_c.jpg",
+    "video": "https://www.youtube.com/watch?v=gpxZeiL2I7M&ab_channel=RomeuIvolela%7CAcademiadeFilosofia"
+  },
+  {
+    "id": "92601102",
+    "name": "Disposição",
+    "price": 449.99,
+    "oldPrice": 559.99,
+    "image": "https://www.apisnutri.com.br/wp-content/uploads/2022/09/como-ter-mais-disposicao-no-dia-a-dia.jpg",
+    "video": "https://www.youtube.com/watch?v=y5YlwQ0i7IA&ab_channel=VictorDegasperi"
+  },
+  {
+    "id": "9465450R",
+    "name": "Energia",
+    "price": 279.99,
+    "oldPrice": 399.99,
+    "image": "https://iot.com.br/wp-content/uploads/2018/02/Screenshot_2.png",
+    "video": "https://www.youtube.com/watch?v=c4O5o3FWuQQ&ab_channel=Eurekka"
+  },
+  {
+    "id": "95004531",
+    "name": "Estética",
+    "price": 299.99,
+    "oldPrice": 449.99,
+    "image": "https://lirp.cdn-website.com/014e5ec5/dms3rep/multi/opt/AdobeStock_250820235-c0fdfa1b-1920w.jpeg",
+    "video": "https://www.youtube.com/watch?v=DL_RrSQyC6o&ab_channel=NayaraRattacasso"
+  },
+  {
+    "id": "94672705",
+    "name": "Movimento",
+    "price": 179.99,
+    "oldPrice": 229.99,
+    "image": "https://s2.static.brasilescola.uol.com.br/be/2023/07/figura-humana-correndo-formada-por-musculos-do-corpo-humano.jpg",
+    "video": "https://www.youtube.com/watch?v=ylPqn1XkfyM&ab_channel=LaisCastteloAcademiaAstrologia"
+  },
+
+  {
+    "id": "94461431",
+    "name": "Sexualidade",
+    "price": 279.99,
+    "oldPrice": null,
+    "image": "https://zenklub.com.br/blog/wp-content/uploads/2021/08/iStock-876816096-1.jpg",
+    "video": "https://www.youtube.com/watch?v=RolWc3XLXR4&ab_channel=Sa%C3%BAdeElementar"
+  },
+  {
+    "id": "95850662",
+    "name": "Ambiental",
+    "price": 199.99,
+    "oldPrice": 279.99,
+    "image": "https://img.freepik.com/fotos-premium/sobre-um-ambiente-sombrio-um-ceu-vivido-do-por-do-sol-com-sol-poente-e-nuvens-coloridas-pode-ser-visto_410516-56795.jpg?w=740",
+    "video": "https://www.youtube.com/watch?v=7JruNSjIenU&ab_channel=DiegoFalco"
+  },
+  {
+    "id": "943137X8",
+    "name": "Mulher (Hormonal)",
+    "price": 249.99,
+    "oldPrice": 349.99,
+    "image": "https://clinicamulherriopreto.com.br/wp-content/uploads/2022/04/4fe522_94f3eaf526e449b9a5b689042625e65f_mv2_d_1920_1281_s_2-670x446.jpg",
+    "video": "https://www.youtube.com/watch?v=7JruNSjIenU&ab_channel=DiegoFalco"
+  },
+  {
+    "id": "93227802",
+    "name": "Nutrição",
+    "price": 159.99,
+    "oldPrice": 189.99,
+    "image": "https://longevidadesaudavel.com.br/wp-content/uploads/2022/07/healthy-food-and-medical-equipment-1536x1024.jpg",
+    "video": "https://www.youtube.com/watch?v=7JruNSjIenU&ab_channel=DiegoFalco"
+  }
+  
+]

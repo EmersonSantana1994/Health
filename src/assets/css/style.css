@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+display: flex;  
+margin: 3px;
+flex: 1 1 100vw;
+flex-wrap: wrap;
+/* background: white;
+color: black; */
+color: rgb(0, 0, 0);
+/* background-image: url('../images/Imagem\ do\ WhatsApp\ de\ 2024-05-24\ à\(s\)\ 11.35.51_05b8c0a3.jpg'); */
+
+/*font-family: Arial, Helvetica, sans-serif;*/
+font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+
+header, nav, main, footer {
+    /*background: #a1a1a1 ;  */
+    display: flex;
+    margin: 3px;
+    color: white;
+
+}
+
+header {
+flex: 1 1 100vw;
+height: 80px;
+
+position: fixed; /* sempre fica no mesmo lugar da página*/
+top: 1; /* 0px do topo */
+width: 98%; /* ocupa 100% da largura disponível*/
+display: flex; /* elementos flexíveis*/
+justify-content: space-between; /* os elementos serão igualmente espaçados */
+padding: 20px; /* padding de 20px do conteúdo as bordas em todos os lados */
+z-index: 99; /* fica acima de todos os outros elementos */
+transition-timing-function: ease-in; /* Efeito de transição com início lento */
+transition: all 0.5s; /* Aparece em 0.5s */
+
+}
+
+header #logo {
+    flex: 0 1 200px;
+    /*background: #c9c9c9;*/
+}
+
+#openMenu, #closeMenu {
+    border: none;
+    background: none;
+    font-size: 30px;
+    font-weight: bold;
+    padding:  0px 5px 0px 5px;
+    cursor: pointer;
+    display: none;
+}
+
+
+nav {
+flex: 1 1 100vw; 
+align-items: center;
+justify-content: flex-end;
+
+
+
+}
+
+nav a {
+    margin: 3%;    
+    font-size: 20pt;
+}
+
+
+.nav__logo {
+    width: 120px;
+    object-fit: contain;
+}
+
+
+.nav__avatar {
+    width: 30px;
+    object-fit: contain;
+}
+
+main {
+flex: 20 1 500px;
+/*height: calc(100vh - 224px);*/
+}
+
+
+
+footer {
+flex: 1 1 100vw;
+/*height: 100px;*/
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*
+@media only screen and (max-width: 923px) {
+    main {
+        height: calc(100vh - 330px);
+    }
+
+    aside {
+        flex: 1 1 100vw;
+        height: 100px;
+    }
+}
+*/
+
+@media only screen and (max-width: 717px) {
+    #openMenu, #closeMenu {
+        display: block;
+    }
+
+    #openMenu {
+        margin-left: auto;
+    }
+
+    #closeMenu {
+        position: fixed;
+        right: 15px;
+        top: 15px;
+    }
+
+    nav {
+        position: fixed;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(255,255,255,0.8);
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        display: none;
+        opacity: 0;
+        transition: 0.3s;
+    }
+}
+
+/* Parte 2: Header; */
+
+/* Configura a imagem de fundo do banner, centraliza, colocar uma cor branca acima
+o banner fica contido na div, com altura 448px */
+.banner {
+    /*background-image: url('../images__test/banner.jpg');*/
+    background-image: url('../images__test/longevidade.jpg');
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    object-fit: contain;
+    height: 448px;
+    width: 100%;
+  }
+
+  /* configura as margens, padding e altura da div banner */
+.banner__contents {
+    margin-left: 30px;
+    padding-top: 140px;
+    height: 190px;
+  }
+
+
+/* o título terá fonte 3x maior que as demais, peso 800 e uma distância em relação
+aos botões */
+.banner__title {
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+  }
+
+
+/* a descrição tem 45 relativo de largura, linha vertical de 1.3
+padding em relação ao topo de 1rem, tamanho de fonte e altura máxima relativas
+e altura 180px */
+.banner__description {
+    width: 45rem;
+    line-height: 1.3;
+    padding-top: 1rem;
+    font-size: 0.8rem;
+    max-width: 360px;
+    height: 180px;
+  }
+  
+/* configuração dos botões do banner */
+.banner__button {
+    cursor: pointer; /* cursor apontador */
+    color: #fff;/* cor branca */
+    outline: none; /* sem sublinhado */
+    border: none; /* sem borda */
+    font-weight: 700; /* negrito */
+    border-radius: 0.2vw; /* borda arredondada*/
+    padding-left: 2rem; /* padding esquerda */
+    padding-right: 2rem; /* padding direita */
+    margin-right: 1rem; /* margem em cima */
+    padding-top: 0.5rem; /* padding em cima */
+    padding-bottom: 0.5rem; /* padding em baixo */
+    background-color: rgba(51, 51, 51, 0.5); /* cor de fundo */
+  }
+  
+  /* quando selecionamos o botão com o mouse, ele muda de cor com animação */
+.banner__button:hover {
+    color: #000;
+    background-color: #e6e6e6;
+    transition: all 0.2s;
+  }
+
+/*configuração que posiciona o banner e aplica um fade out na imagem que vai ficando
+com a cor do conteúdo que vem a seguir */
+.banner--fadeBottom {
+    margin-top: 145px;
+    height: 7.4rem;
+    background-image: linear-gradient(180deg, transparent, rgba(37, 37, 37, 0.61), #111);
+    
+  }
+
+
+/* cor de fundo preta */
+.nav__black {
+    background-color: #111; /**/
+  }
+
+
+
+
+
+
+
+
+
+
+ 
