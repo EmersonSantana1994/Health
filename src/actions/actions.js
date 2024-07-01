@@ -16,8 +16,11 @@ export const voltarProntuario = (data) => ({
   payload: data,
 });
 
+<<<<<<< HEAD
 export const modalAberta = (data) => ({
   type: "MODAL_ABERTA",
   payload: data,
 });
 
+=======
+>>>>>>> 9f185d612c326fa12f3cdfa36436ff2b72b61bff

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import React, { useState, useEffect, useRef } from 'react';/*eslint-disable*/
+=======
+import React, { useState, useEffect } from 'react';/*eslint-disable*/
+>>>>>>> 9f185d612c326fa12f3cdfa36436ff2b72b61bff
 import '../../css/torneio/torneio.css';
 import { Button, Image, Form, InputGroup, FormControl, Col, Carousel, Alert } from 'react-bootstrap';
 import { apiC } from "../../conexoes/api";
@@ -14,10 +18,17 @@ import Pronturario2 from '../login/prontuario2';
 import ModalAdicionar from './modalAdicionar';
 import { voltarProntuario } from '../../actions/actions';
 import ReactDragListView from "react-drag-listview";
+<<<<<<< HEAD
 import { modalAberta } from '../../actions/actions';
 
 
 export default function Pronturario(props) {
+=======
+
+
+
+export default function Pronturario() {
+>>>>>>> 9f185d612c326fa12f3cdfa36436ff2b72b61bff
     window.Buffer = Buffer;
     const [itens, setItens] = useState([]);
     const [time1, setTime1] = useState('');
@@ -32,7 +43,11 @@ export default function Pronturario(props) {
     const [permissaoDescricao, setPermissaoDescricao] = useState();
     const voltarProntuarioo = useSelector(state => state.reduxH.voltarProntuario);
     const despacho = useDispatch();
+<<<<<<< HEAD
     const modal = useRef();
+=======
+
+>>>>>>> 9f185d612c326fa12f3cdfa36436ff2b72b61bff
     const [jogador1, setJogador1] = useState('');
     const [jogador2, setJogador2] = useState('');
     const [jogador3, setJogador3] = useState('');
@@ -83,6 +98,7 @@ export default function Pronturario(props) {
         setText(JSON.parse(localStorage.getItem('idioma')))
     }, [])
 
+<<<<<<< HEAD
     const handleClickFora = e => {
 
 if(modal.current){
@@ -101,6 +117,8 @@ if(modal.current){
         document.addEventListener('mousedown', handleClickFora);
         return () => document.removeEventListener('mousedown', handleClickFora);
     }, [])
+=======
+>>>>>>> 9f185d612c326fa12f3cdfa36436ff2b72b61bff
 
     useEffect(() => {
         async function listar(e) {
@@ -148,7 +166,73 @@ if(modal.current){
             });
     }
 
+<<<<<<< HEAD
 
+=======
+    async function cadastrarTime() {
+
+        await apiC.post("cadastrar/time", {
+            "liga": liga,
+            "time1": time1,
+            "time2": time2,
+            "time3": time3,
+            "time4": time4,
+            headers: {
+                'x-access-token': token,
+            }
+        })
+            .then(response => {
+                if (response.status === 200) {
+                    alert('liga e times cadastrados')
+                }
+            })
+            .catch((error) => {
+                alert(error.response.data)
+            });
+    }
+
+    async function buscarImagem() {
+
+        await apiC.post("buscar/imagem", {
+            "nome": nome,
+        })
+            .then(response => {
+                if (response.status === 200) {
+                    const imagePath = Buffer.from(response.data.result.data).toString();
+                    setImagemBuscada(imagePath)
+                }
+            })
+            .catch((error) => {
+                console.log("error", error)
+                // alert(error.response.data)
+
+            });
+    }
+
+
+    async function cadastrarJogador() {
+
+        await apiC.post("cadastrar/jogador", {
+            "time": time,
+            "jogador1": jogador1,
+            "jogador2": jogador2,
+            "jogador3": jogador3,
+            "jogador4": jogador4,
+            headers: {
+                'x-access-token': token,
+            }
+        })
+            .then(response => {
+                if (response.status === 200) {
+                    alert('Jogadores cadastrados')
+                }
+            })
+            .catch((error) => {
+                alert(error.response.data)
+
+            });
+    }
+>>>>>>> 9f185d612c326fa12f3cdfa36436ff2b72b61bff
 
 
 
@@ -304,6 +388,7 @@ setnomeArquivo(nome)
     }
 
     return (
+<<<<<<< HEAD
         <>
 
 
@@ -382,3 +467,93 @@ setnomeArquivo(nome)
 }
 
 
+=======
+
+        <>
+
+        {voltarProntuarioo ? 
+        
+    
+       <ModalAdicionar atualizar={atualizar}></ModalAdicionar>
+
+:
+
+    <div className='p-lado'>
+             
+
+        <div className="coluna-alterar-ciclo-vida-1-ativacao">
+                                {/* <Form.Label className="fonte-cor-1 label-campo-ativacao">Ativação</Form.Label> */}
+                                {/* <div className="break-3"></div> */}
+                                <Form.Group>
+                                    {/* Componente Calendário */}
+                                    {/* <div className="conteudo-calendario-filtro">
+                                        <Form.Control name="ATIVACAO_INICIO" type="text" value={filtroAtivacaoDataInicio ? moment(filtroAtivacaoDataInicio).format("YYYY-MM-DD hh:mm:ss") : filtroAtivacaoDataInicio} className="d-none" />
+                                        <Calendario imputCustomisado='De:' data={filtroAtivacaoDataInicio} setData={setFiltroAtivacaoDataInicio} dataMax={filtroAtivacaoDataFinal ? filtroAtivacaoDataFinal : dataMax} dataMin={dataMin} rota={"filtroSimcard"}></Calendario>
+                                    </div> */}
+                                    {/* <div className="conteudo-calendario-filtro">
+                                        <Form.Control name="ATIVACAO_FINAL" type="text" value={filtroAtivacaoDataFinal ? moment(filtroAtivacaoDataFinal).format("YYYY-MM-DD hh:mm:ss") : filtroAtivacaoDataFinal} className="d-none" />
+                                        <Calendario imputCustomisado='Até:' data={filtroAtivacaoDataFinal} setData={setFiltroAtivacaoDataFinal} dataMax={dataMax} dataMin={filtroAtivacaoDataInicio ? filtroAtivacaoDataInicio : dataMin} rota={"filtroSimcard"}></Calendario>
+                                    </div> */}
+                                    
+                                </Form.Group>
+                            </div>
+       
+       
+       
+            <div className='cimaProntuario'>
+            <ReactDragListView.DragColumn
+                                    // onDragEnd={props.onDragEnd}
+                                    nodeSelector="th"
+                                    ignoreSelector="th.selection-cell-header, th.expand-cell-header"
+                                >
+            <BootstrapTable // TABELA
+                                    classes={"tabela"}
+                                    condensed={true}
+                                    keyField='id_pro'
+                                    data={itens}
+                                    columns={colunas}
+                                    rowEvents={eventosLinhas}
+                                    // selectRow={selecaoLinhas}
+                                    expandRow={itemExpandido}
+                                    bootstrap4={true}
+                                    bordered={false}
+                                    // noDataIndication={!spinAtivo && "Nenhum item encontrado"}
+                                    // {...paginationTableProps}
+                                />
+                {/* <did className='lado-d'>
+                    <div className='cima'>
+                        <label className='label-2'>{text.observacoes}</label>
+                        <Form.Control
+                            onChange={e => { setJogador(getName) }}
+                            value={getName}
+                            placeholder=''
+                            className='imput-4'
+                        />
+                    </div>
+                </did> */}
+                </ReactDragListView.DragColumn>
+                <did className='lado-d'>
+                <Button className="botaoCadastro" onClick={(e) => { enviarDetalhe()}}>
+                    <div>Adicionar</div>
+                </Button>
+                <Button className="botaoCadastro">
+                    <div>Limpar</div>
+                </Button>
+               
+       
+                </did>
+       
+            </div>
+       
+       
+        </div>
+        
+//  <ModalAdicionar></ModalAdicionar> :
+
+        }
+        </>
+
+
+    )
+}
+>>>>>>> 9f185d612c326fa12f3cdfa36436ff2b72b61bff

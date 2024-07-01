@@ -291,6 +291,26 @@ export default function Pronturario2(props) {
             <div className='p-lado'>
              
 
+<<<<<<< HEAD
+=======
+            <div className="coluna-alterar-ciclo-vida-1-ativacao">
+                                    {/* <Form.Label className="fonte-cor-1 label-campo-ativacao">Ativação</Form.Label> */}
+                                    {/* <div className="break-3"></div> */}
+                                    <Form.Group>
+                                        {/* Componente Calendário */}
+                                        {/* <div className="conteudo-calendario-filtro">
+                                            <Form.Control name="ATIVACAO_INICIO" type="text" value={filtroAtivacaoDataInicio ? moment(filtroAtivacaoDataInicio).format("YYYY-MM-DD hh:mm:ss") : filtroAtivacaoDataInicio} className="d-none" />
+                                            <Calendario imputCustomisado='De:' data={filtroAtivacaoDataInicio} setData={setFiltroAtivacaoDataInicio} dataMax={filtroAtivacaoDataFinal ? filtroAtivacaoDataFinal : dataMax} dataMin={dataMin} rota={"filtroSimcard"}></Calendario>
+                                        </div> */}
+                                        {/* <div className="conteudo-calendario-filtro">
+                                            <Form.Control name="ATIVACAO_FINAL" type="text" value={filtroAtivacaoDataFinal ? moment(filtroAtivacaoDataFinal).format("YYYY-MM-DD hh:mm:ss") : filtroAtivacaoDataFinal} className="d-none" />
+                                            <Calendario imputCustomisado='Até:' data={filtroAtivacaoDataFinal} setData={setFiltroAtivacaoDataFinal} dataMax={dataMax} dataMin={filtroAtivacaoDataInicio ? filtroAtivacaoDataInicio : dataMin} rota={"filtroSimcard"}></Calendario>
+                                        </div> */}
+                                        
+                                    </Form.Group>
+                                </div>
+
+>>>>>>> 9f185d612c326fa12f3cdfa36436ff2b72b61bff
 
            
                 <div className='cimaProntuario2'>

@@ -533,6 +533,7 @@ export default function ModalAdicionar(props) {
 
 
 
+<<<<<<< HEAD
                 <div className='modal'>
 
 
@@ -540,6 +541,14 @@ export default function ModalAdicionar(props) {
                         <Button className="botaoVoltar" onClick={fechar} >
                             <p className='voltar' >VOLTAR</p>
                         </Button>
+=======
+                <div className='cimaProntuario'>
+                    <Button className="botaoVoltar" onClick={fechar} >
+                        <p className='voltar' >VOLTAR</p>
+                    </Button>
+
+                    <did className='lado-d'>
+>>>>>>> 9f185d612c326fa12f3cdfa36436ff2b72b61bff
                         <div className='cimaPront'>
 
                             <div className='lado-d'>
@@ -652,7 +661,11 @@ export default function ModalAdicionar(props) {
                                 }
 
                                 {isRecording &&
+<<<<<<< HEAD
                                     <MicOffIcon className='iconePararGravador' style={{ fontSize: 42 }} onClick={stopRecording} />
+=======
+                                <MicOffIcon className='iconePararGravador' style={{ fontSize: 42 }} onClick={stopRecording} />         
+>>>>>>> 9f185d612c326fa12f3cdfa36436ff2b72b61bff
                                 }
                                 <div>
 
@@ -662,6 +675,7 @@ export default function ModalAdicionar(props) {
                                 </div>
                             </div>
                         </div>
+<<<<<<< HEAD
                         <div>
 
                             <div className='lado-d'>
@@ -678,10 +692,30 @@ export default function ModalAdicionar(props) {
                                                         <a className='ae1' href="#">Upload</a>
 
                                                     </div>
+=======
+
+                    </did>
+
+                    <div>
+
+                        <div className='lado-d'>
+
+                            <Dropzone onDrop={acceptedFiles => handleLerArquivo(acceptedFiles[0])}>
+                                {({ getRootProps, getInputProps }) => (
+                                    <section>
+                                        <div {...getRootProps()}>
+                                            <input {...getInputProps()} />
+
+                                            {/* <div>{text.importarFoto}</div> */}
+                                            <div class="wrapper">
+                                                <div class="link_wrapper">
+                                                    <a className='ae1' href="#">Upload</a>
+>>>>>>> 9f185d612c326fa12f3cdfa36436ff2b72b61bff
 
                                                 </div>
 
                                             </div>
+<<<<<<< HEAD
                                         </section>
                                     )}
                                 </Dropzone>
@@ -716,6 +750,41 @@ export default function ModalAdicionar(props) {
                     </did>
 
 
+=======
+
+                                        </div>
+                                    </section>
+                                )}
+                            </Dropzone>
+                            <label className='labell-2'>Arquivo</label>
+                            <Form.Control
+                                onChange={e => { setJogador(e.target.value) }}
+                                value={getName}
+                                className='imput-8'
+                            />
+                        </div>
+
+                    </div>
+
+
+
+
+                    <did className='lado-d'>
+
+                        {!desabilitarButao ?
+                            <Button className="botaoCadastro" onClick={cadastrarArquivo}>
+                                <div>Enviar</div>
+                            </Button>
+                            :
+                            <Button disabled className="botaoCadastroDesab" onClick={cadastrarArquivo}>
+                                <div>Enviar</div>
+                            </Button>
+                        }
+
+
+                    </did>
+
+>>>>>>> 9f185d612c326fa12f3cdfa36436ff2b72b61bff
                 </div>
 
 

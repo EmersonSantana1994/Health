@@ -7,7 +7,10 @@ const initialState = {
   idioma: pt,
   expandirNavegacao: true,
   voltarProntuario: false,
+<<<<<<< HEAD
   modalAberta: false,
+=======
+>>>>>>> 9f185d612c326fa12f3cdfa36436ff2b72b61bff
 };
 
 export const reduxH = (state = initialState, action) => {
@@ -31,6 +34,7 @@ export const reduxH = (state = initialState, action) => {
         }
     }
 
+<<<<<<< HEAD
     else if (action.type === 'MODAL_ABERTA') {
         return {
             ...state, 
@@ -38,6 +42,8 @@ export const reduxH = (state = initialState, action) => {
         }
     }
 
+=======
+>>>>>>> 9f185d612c326fa12f3cdfa36436ff2b72b61bff
     else {
         return state;
     }

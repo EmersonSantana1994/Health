@@ -417,7 +417,11 @@ export default function Cabecalho() {
                 <Button className="botao-cabecalho" onClick={(e) => { navigate('/agendamento'); selecionado('agendamento') }}>
                     <div className={agendamentoSelect ? "selecionado" : "btn-filtro-arquivo"}>{text.agendamento}</div>
                 </Button>
+<<<<<<< HEAD
                 <Button className="botao-cabecalho" onClick={(e) => { navigate('/prontuarioPesquisar'); selecionado('prontuario') }}>
+=======
+                <Button className="botao-cabecalho" onClick={(e) => { navigate('/prontuario'); selecionado('prontuario') }}>
+>>>>>>> 9f185d612c326fa12f3cdfa36436ff2b72b61bff
                     <div className={anotacoesSelect ? "selecionado" : "btn-filtro-arquivo"} >{text.prontuario}</div>
                 </Button>
                 <Button className="botao-cabecalho" onClick={(e) => { navigate('/cadastroUsuario'); selecionado('time') }}>
