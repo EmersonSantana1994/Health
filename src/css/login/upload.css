@@ -1,0 +1,299 @@
+
+
+.label-quanti-mul {
+    width: 100% !important;
+    float: left;
+
+}
+
+.label-quanti-hom {
+    width: 100% !important;
+    float: left;
+
+}
+
+.label-media-idad {
+    width: 100% !important;
+    float: left;
+
+}
+
+.campo-texto-calendario-filtro{
+    height: 30px;
+    margin-left: 18px;
+    width: 272px;
+    border-block-color: black;
+    margin-top: -1px;
+    font-family: cursive;
+}
+
+.tessss{
+    position: absolute;
+    left: 2px;
+    top: 0px;
+    transform: translate(822.4px, 20.8px);
+}
+
+.custom-datepicker .react-datepicker {
+
+    position: absolute;
+    left: 2px;
+    top: 0px;
+    transform: translate(822.4px, 20.8px);
+}
+
+
+
+
+.foto{
+    width: 2.5em !important;
+    height: 2.5em !important;
+    border-radius: 100% !important;
+}
+
+.lab-quant-home {
+    position: absolute;
+    margin-left: -96px;
+    margin-top: 25px;
+    width: 56px;
+}
+
+.lab-quant-mul {
+    position: absolute;
+    margin-left: -96px;
+    margin-top: 45px;
+    width: 56px;
+}
+
+.lab-media-idade {
+    position: absolute;
+    margin-left: -96px;
+    margin-top: 65px;
+    width: 56px;
+}
+
+
+
+
+.espaco2{
+    width: 40px;
+}
+
+.espaco4{
+    height: 12px;
+}
+
+.espaco3{
+    height: 28px;
+}
+
+
+.lado {
+    display: inline-flex;
+}
+
+.ladoFoto {
+    display: inline-flex;
+}
+
+
+.esconder {
+    display: none;
+}
+
+.campo-select-filtro-5{
+    border-color: black;
+    border-radius: 5em !important;
+    box-shadow: none !important;
+    display: flex !important;
+    font-family: RobotoRegular !important;
+    font-size: .875em !important;
+    height: 2.4em !important;
+    justify-content: space-between !important;
+    line-height: 1em !important;
+    width: 27% !important;
+    margin-left: -2px;
+    margin-top: 10px;
+}
+
+.campo-select-filtro-6{
+    border-color: black;
+    border-radius: 5em !important;
+    box-shadow: none !important;
+    display: flex !important;
+    font-family: RobotoRegular !important;
+    font-size: .875em !important;
+    height: 2.4em !important;
+    justify-content: space-between !important;
+    line-height: 1em !important;
+    width: 27% !important;
+    margin-left: -2px;
+    margin-top: 10px;
+}
+
+.campo-texto-select-tamanho-2{
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    width: 100% !important;
+    text-align: left !important;
+    margin-top: 3% !important;
+    margin-left: 10% !important;
+    font-size: 17px;
+    font-family: cursive;
+}
+
+.campo-texto-select-tamanho-3{
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    width: 100% !important;
+    text-align: left !important;
+    margin-top: 1% !important;
+    margin-left: 2% !important;
+    font-size: 14px;
+    font-family: monospace;
+}
+
+.campo-select-icone-ativado{
+    margin-top: 0.15em!important;
+    margin-left: 1em!important;
+    -webkit-transition: 0.5s ease!important;
+    -moz-transition: 0.5s ease!important;
+    -o-transition: 0.5s ease!important;
+    transition: 0.5s ease!important;
+}
+
+.nao-selecionavel {/* NAO DEIXA O TEXTO SER SELECIONAVEL COM O MOUSE */
+    -webkit-touch-callout: none!important;
+      -webkit-user-select: none!important;
+       -khtml-user-select: none!important;
+         -moz-user-select: none!important;
+          -ms-user-select: none!important;
+              user-select: none!important;
+}
+
+.campo-select-icone-desativado-filtro-b{/* CLASSE PARA ROTACIONAR O ICONE DE DROPDOWN QUANDO DESATIVADO */
+    -webkit-transition: 0.5s ease!important;
+    -moz-transition: 0.5s ease!important;
+    -o-transition: 0.5s ease!important;
+    transition: 0.5s ease!important;
+    margin-top: 8px;
+}
+
+
+.campo-select-opcao{/* CLASSE PADRAO PARA OS ITEMS DO SELECT */
+    margin-left: -1.5em !important;
+    width: 150% !important;
+    height: 1.875em !important;
+    line-height: 1.75em !important;
+    cursor: pointer !important;
+}
+
+.campo-select-opcao-2{/* CLASSE PADRAO PARA OS ITEMS DO SELECT */
+    margin-left: -1.5em !important;
+    width: 150% !important;
+    height: 1.875em !important;
+    line-height: 1.75em !important;
+    cursor: pointer !important;
+}
+
+.campo-select-divisor{/* CLASSE PADRAO PARA AS LINHAS DIVISORIAS ENTRE OS ITEMS DO SELECT */
+    height: 0.0625em !important;
+    width: 109% !important;
+    margin-left: -1.2em !important;
+    /* color: #ab3d3d; */
+    background-color: rgb(58 63 61) !important;
+}
+
+.campo-select-opcao-label{/* CLASSE PADRAO PARA ALINHAR AS LABELS DOS ITEMS DO SELECT */
+    width: 80% !important;
+    margin-left: 1.5em!important;
+    white-space: nowrap !important;
+    overflow: hidden !important; 
+    text-overflow: ellipsis !important;
+    color: black;
+}
+
+
+
+.campo-select{/* CLASSE PADRAO PARA CAMPOS SELECT */
+    border-color: black;
+    /* border-radius: 5em !important; */
+    box-shadow: none !important;
+    display: flex !important;
+    /* font-family: RobotoRegular !important; */
+    /* font-size: .875em !important; */
+    height: 27px;
+    justify-content: space-between !important;
+    line-height: 1em !important;
+    width: 223px;
+    margin-left: 19px;
+    margin-top: 1px;
+    background-color: white;
+}
+
+.campo-select-2{/* CLASSE PADRAO PARA CAMPOS SELECT */
+    border-color: black;
+    /* border-radius: 5em !important; */
+    box-shadow: none !important;
+    display: flex !important;
+    /* font-family: RobotoRegular !important; */
+    /* font-size: .875em !important; */
+    height: 27px;
+    justify-content: space-between !important;
+    line-height: 1em !important;
+    width: 223px;
+    margin-left: 0px;
+    margin-top: 1px;
+    background-color: white;
+}
+
+.label-campo-marca{/* TEXTO DOS TITULOS DOS CAMPOS DO SISTEMA */
+    font-family: RobotoRegular!important;
+    font-size: 1em!important;
+    line-height: 1em!important;
+    margin-top: 6px;
+}
+
+.campo-select-triangulo{/* CLASSE PADRAO PARA POSICIONAR O TRIANGULO QUE AJUDA A DAR FORMA AO CORPO DO SELECT */
+    width: 0!important;
+    height: 0!important;
+    border-top: 0.9375em solid transparent!important;
+    border-left: 0.9375em solid transparent!important;
+    border-right: 0.9375em solid transparent!important;
+    margin-left: 3em!important;
+    margin-top: -0.9em!important;
+}
+
+.campo-select-corpo{/* CLASSE PADRAO PARA O CORPO DO SELECT */
+    width: 226px;
+    max-height: 10em !important;
+    z-index: 500 !important;
+    border-radius: 0.3125em !important;
+    overflow-x: hidden !important;
+    background-color: white;
+    position: fixed;
+    margin-left: 18px;
+    margin-top: -21px;
+}
+
+.campo-select-corpo-2{/* CLASSE PADRAO PARA O CORPO DO SELECT */
+    width: 226px;
+    max-height: 10em !important;
+    z-index: 500 !important;
+    border-radius: 0.3125em !important;
+    overflow-x: hidden !important;
+    background-color: white;
+    position: fixed;
+    margin-left: 0px;
+    margin-top: -21px;
+}
+
+.campo-select-lista{/* CLASSE PADRAO PARA LIMPAR BULLETS DA LISTA DE ITEMS DOS SELECTS */
+    list-style-type: none!important;
+}
+
+
+
+
