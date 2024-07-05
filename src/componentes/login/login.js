@@ -48,7 +48,6 @@ export default function TelaLogin() {
     const [idIdioma, setIdIdioma] = useState('')
 
 
-
     let totalItens = 0
     let contador = 0
     let itensVar = []

@@ -329,7 +329,6 @@ export default function PronturarioPesquisa() {
         //             </Button>;
         //         },
         //     },
-
         {
             dataField: 'nome',
             headerClasses: 'nao-selecionavel',
