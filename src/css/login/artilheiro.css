@@ -1,0 +1,119 @@
+.label-artilheiro {
+    height: 28px;
+    font-size: 26px;
+    border-inline-color: revert;
+}
+
+.label-quantgol {
+    height: 28px;
+    font-size: 14px;
+    border-inline-color: revert;
+    margin-left: 27px;
+    position: absolute;
+    margin-top: -56px;
+}
+
+.label-quatidade{
+    height: 28px;
+    font-size: 17px;
+    border-inline-color: revert;
+    position: absolute;
+    margin-left: -247px;
+    margin-top: -50px;
+}
+
+
+.deletar-jogador{
+    position: absolute;
+    margin-left: 844px;
+    margin-top: -21px;
+}
+
+.label-placar1{
+    height: 28px;
+    font-size: 17px;
+    border-inline-color: revert;
+    position: absolute;
+    margin-left: 743px;
+    margin-top: -212px;
+    width: 58px;
+}
+
+.time-placar1{
+    height: 28px;
+    font-size: 17px;
+    border-inline-color: revert;
+    position: absolute;
+    margin-left: 614px;
+    margin-top: -212px;
+    width: 133px;
+}
+
+.time-placar2{
+    height: 28px;
+    font-size: 17px;
+    border-inline-color: revert;
+    position: absolute;
+    margin-left: 918px;
+    margin-top: -212px;
+    width: 134px;
+    
+}
+
+.pesquisa{
+    margin-left: 721px;
+}
+
+.limpar-placar{
+    position: absolute;
+    margin-left: 721px;
+    margin-top: -167px;
+}
+
+.titulo{
+    position: absolute;
+    margin-left: 784px;
+    margin-top: -238px;
+    font-style: italic;
+}
+
+
+.posicaoX{
+    font-size: 30px;
+    position: absolute;
+    margin-left: 821px;
+    margin-top: -213px;
+}
+
+.label-placar2{
+    height: 28px;
+    font-size: 17px;
+    border-inline-color: revert;
+    position: absolute;
+    margin-left: 862px;
+    margin-top: -212px;
+    width: 58px;
+}
+
+.cabecalho{
+    display: inline-grid;
+    margin-top: 36px;
+    margin-left: -300px;
+}
+
+.you{
+    font-size: 77px;
+    font-family: unset;
+    margin-left: 55px;
+    color: #168c8f;
+    position: fixed;
+}
+
+.cabecalho2{
+    display: inline-flex;
+    margin-left: 46px;
+}
+
+.selecionado{
+    font-weight: bolder;
+}

@@ -1,0 +1,230 @@
+.filtros-texto-linha-margin{
+    margin-top: 0.3em !important;
+    margin-bottom: 0.4em !important;
+    margin-left: 2em !important;
+}
+
+.filtros-cifrao{
+    padding: 0.3em !important;
+    width: 5em !important;
+    height: 2.1em !important;
+    line-height: 1em !important;
+    font-size: 0.875em !important;
+    font-family: RobotoRegular !important;
+    /* border: 0em !important; */
+    vertical-align: middle !important;
+    border-radius: 0.125em 3em 3em 0.125em !important;
+    box-shadow: none !important;
+    margin-left: 188px;
+    position: absolute;
+}
+
+.filtros-iccid-valor-min-b{
+    padding: 0.3em !important;
+    width: 11.3em!important;
+    height: 2.55em!important;
+    line-height: 1em !important;
+    font-size: 0.875em !important;
+    font-family: RobotoRegular !important; 
+    border: 0em!important;
+    vertical-align: middle !important;
+    border-radius: 0.125em 3em 3em 0.125em!important;
+    box-shadow: none !important;
+    margin-left: -26px;
+}
+
+.filtros-iccid-valor-min{
+    padding: 0.3em !important;
+    width: 13em !important;
+    height: 2.10em !important;
+    line-height: 2em !important;
+    font-size: 0.875em !important;
+    font-family: RobotoRegular !important;
+    /* border: 0em !important; */
+    vertical-align: middle !important;
+    border-radius: 3.125em 3em 3em 3.125em !important;
+    box-shadow: none !important;
+    margin-left: 63px;
+    border-bottom-color: #c61c69;
+}
+
+.fase{
+    margin-left: 242px;
+}
+
+.semifinal{
+    margin-left: 272px;
+}
+
+.final{
+    margin-left: 296px;
+}
+
+.limpar-copa{
+    margin-left: 949px;
+}
+
+.formato-data{
+    padding: 0.3em !important;
+    width: 13em !important;
+    height: 2.10em !important;
+    line-height: 2em !important;
+    font-size: 0.875em !important;
+    font-family: RobotoRegular !important;
+    /* border: 0em !important; */
+    vertical-align: middle !important;
+    border-radius: 3.125em 3em 3em 3.125em !important;
+    box-shadow: none !important;
+    margin-left: 239px;
+    border-bottom-color: #c61c69;
+}
+
+.btn-filtro-arqui{
+    margin-left: 61px;
+}
+
+.fonte-cor-1{
+    margin: 0;
+}
+
+.break-3 {
+    height: 10px;
+}
+
+.x {
+    height: 10px;
+}
+
+.label-texto-valor-filtros {
+    cursor: pointer;
+    height: 1em;
+    font-family: RobotoRegular;
+    font-size: 0.875em;
+    line-height: 1em;
+    text-align: initial !important;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.filtros-cifrao-b{
+    padding: 0.3em !important;
+    width: 2em!important;
+    height: 2.55em!important;
+    line-height: 1em !important;
+    font-size: 0.875em !important;
+    font-family: RobotoRegular !important; 
+    border: 0em!important;
+    vertical-align: middle !important;
+    border-radius: 3.125em 0em 0em 3.125em!important;
+    box-shadow: none !important;
+    margin-left: -49px;
+    position: absolute;
+    margin-top: -17px;
+}
+
+.filtros-iccid-valor-max-2{
+    padding: 0.3em !important;
+    width: 3em!important;
+    height: 2.55em!important;
+    line-height: 1em !important;
+    font-size: 0.875em !important;
+    font-family: RobotoRegular !important;
+    border: 0em!important;
+    vertical-align: middle !important;
+    border-radius: 3.125em 0em 0em 3.125em!important;
+    box-shadow: none !important;
+    margin-left: -37px;
+    margin-top: -12px;
+}
+
+.copa{
+    position: absolute;
+    margin-left: 1055px;
+    margin-top: -59px;
+}
+
+.copa1{
+    margin-left: 1125px;
+    position: absolute;  
+}
+
+.copa2{
+    margin-left: 1125px;
+    position: absolute;
+    margin-top: 25px;
+}
+
+.copa3{
+    margin-left: 1125px;
+    position: absolute;
+    margin-top: 43px; 
+}
+
+.copa4{
+    margin-left: 1125px;
+    position: absolute;
+    margin-top: 61px;
+}
+
+.copa5{
+    margin-left: 1125px;
+    position: absolute;
+    margin-top: 77px;
+}
+
+.copa6{
+    margin-left: 1125px;
+    position: absolute;
+    margin-top: 95px;
+}
+
+.copa7{
+    margin-left: 1125px;
+    position: absolute;
+    margin-top: 114px;
+}
+
+.copa8{
+    margin-left: 1125px;
+    position: absolute;
+    margin-top: 130px;
+}
+
+.copa9{
+    margin-left: 1125px;
+    position: absolute;
+    margin-top: 145px;
+}
+
+.copa10{
+    margin-left: 1125px;
+    position: absolute;
+    margin-top: 161px;
+}
+
+
+
+.copa11{
+    margin-left: 1125px;
+    position: absolute;
+    margin-top: 182px;
+}
+
+.copa12{
+    margin-left: 1125px;
+    position: absolute;
+    margin-top: 228px;
+}
+
+.copa13{
+    margin-left: 1125px;
+    position: absolute;
+    margin-top: 245px;
+}
+
+.copa14{
+    margin-left: 1125px;
+    position: absolute;
+    margin-top: 261px;
+}
+
