@@ -108,10 +108,7 @@
     background-color: #36D896!important;
     box-shadow: none!important;
     border: 0em!important;
-<<<<<<< HEAD
     cursor: pointer;
-=======
->>>>>>> 754f1862d54193eca7fbb131089397a427bef44c
 }
 
 .icone-usuario-perfil{
@@ -127,11 +124,8 @@
     border-radius: 100px;
 }
 
-<<<<<<< HEAD
 
 
-=======
->>>>>>> 754f1862d54193eca7fbb131089397a427bef44c
 .label-quanti-hom {
     width: 100% !important;
     float: left;
@@ -184,11 +178,7 @@
 }
 
 .linha-horizon {
-<<<<<<< HEAD
     /* width: 1030px; */
-=======
-    width: 1030px;
->>>>>>> 754f1862d54193eca7fbb131089397a427bef44c
     border: 2px solid #6ac2f5;
     position: absolute;
     margin-top: 76px;
@@ -217,10 +207,7 @@
     width: 91px;
     height: 27px;
     margin-left: 62px;
-<<<<<<< HEAD
     cursor: pointer;
-=======
->>>>>>> 754f1862d54193eca7fbb131089397a427bef44c
 }
 
 .botao-cadastrar{
@@ -228,10 +215,7 @@
     width: 91px;
     height: 27px;
     margin-left: 63px;
-<<<<<<< HEAD
     cursor: pointer;
-=======
->>>>>>> 754f1862d54193eca7fbb131089397a427bef44c
 }
 
 .senha{
@@ -346,7 +330,6 @@
 }
 
 .labell-2{
-<<<<<<< HEAD
     margin-top: 34px;
     margin-left: -86PX;
 }
@@ -377,12 +360,6 @@
     display: flex;
 }
 
-=======
-    margin-top: 8px;
-    margin-left: -86PX;
-}
-
->>>>>>> 754f1862d54193eca7fbb131089397a427bef44c
 .label-2{
     margin-top: 15px;
     margin-left: 20PX;
